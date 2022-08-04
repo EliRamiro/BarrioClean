@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "514719115896",
+    "firebase_url": "https://barrioclean-c4329-default-rtdb.firebaseio.com",
+    "project_id": "barrioclean-c4329",
+    "storage_bucket": "barrioclean-c4329.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:514719115896:android:ced5e36bc43f78f044db8d",
+        "android_client_info": {
+          "package_name": "com.barrioclean.cliente"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "514719115896-ig2l8hem67ronavho5uf2adjb7br3fl5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3GZwQKjE8qtmey3SRYd5liIU2BUrTcJk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "514719115896-ig2l8hem67ronavho5uf2adjb7br3fl5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:514719115896:android:5aad8adb574ea09f44db8d",
+        "android_client_info": {
+          "package_name": "com.barrioclean.conductor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "514719115896-ig2l8hem67ronavho5uf2adjb7br3fl5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3GZwQKjE8qtmey3SRYd5liIU2BUrTcJk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "514719115896-ig2l8hem67ronavho5uf2adjb7br3fl5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

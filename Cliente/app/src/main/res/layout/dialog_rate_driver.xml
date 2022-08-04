@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_weight="1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:civ_border_width="3dp"
+                app:civ_border_color="@color/colorAccent"
+                android:src="@drawable/avatar_default"/>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/negro"
+                android:textAllCaps="true"
+                android:textSize="25dp"
+                android:fontFamily="@font/gotham_medium"
+                android:text="AHE016"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/txt_driver_name"
+                android:gravity="center|end"
+                android:layout_gravity="center|end"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Usuario Conductor"
+                android:fontFamily="@font/gotham_medium"
+                android:textSize="20sp"
+                android:textColor="@color/negro"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|end"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:textSize="20sp"
+                    android:textColor="@color/negro"
+                    android:text="4.9"/>
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_gravity="center|end"
+                    android:src="@drawable/icon_star" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dale una calificación"
+        android:gravity="center"
+        android:fontFamily="@font/gotham_medium"
+        android:textSize="18sp"/>
+    <RatingBar
+        android:id="@+id/dialog_rate_driver"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:max="5"/>
+
+</LinearLayout>

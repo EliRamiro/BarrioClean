@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@null"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="40dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/colorAccent">
+            <View
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginStart="45dp"
+                android:layout_marginEnd="45dp"
+                android:background="@color/blanco"/>
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/img_alert"/>
+            <TextView
+                android:id="@+id/dialog_txt_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/blanco"
+                android:textSize="25sp"
+                android:fontFamily="@font/gotham_medium"
+                android:text="4 min"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/gris_oscuro"/>
+
+            <TextView
+                android:id="@+id/dialog_txt_servicio"
+                android:layout_weight="0.5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/colorAccent"
+                android:textSize="25sp"
+                android:textAllCaps="true"
+                android:fontFamily="@font/gotham_medium"
+                android:text="CLEAN EXPRESS"/>
+            <View
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/gris_oscuro"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|end">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:gravity="center|end"
+                    android:src="@drawable/icon_marker"/>
+            </LinearLayout>
+            <TextView
+                android:id="@+id/dialog_txt_destino"
+                android:layout_weight="0.5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|start"
+                android:layout_gravity="center"
+                android:text="Av. Pacasmayo 5886, Callao"
+                android:textColor="@color/gris_oscuro"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/dialog_txt_cantidad"
+                android:layout_weight="1"
+                android:paddingEnd="20dp"
+                android:gravity="center|end"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorAccent"
+                android:text="2 m3"
+                android:textSize="20sp"/>
+            <TextView
+                android:id="@+id/dialog_txt_precio"
+                android:layout_weight="1"
+                android:paddingStart="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorAccent"
+                android:text="S/ 120.00"
+                android:textSize="20sp"/>
+        </LinearLayout>
+        <Button
+            android:id="@+id/btn_aceptar"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_width="150dp"
+            android:text="Aceptar viaje"
+            android:textColor="@color/blanco"
+            android:background="@drawable/btn_default_verde"/>
+
+        <LinearLayout
+            android:id="@+id/linear_rechazar"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:src="@drawable/img_close"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Rechazar viaje"
+                android:fontFamily="@font/gotham_medium"
+                android:textColor="@color/gris_oscuro"
+                android:textSize="18sp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

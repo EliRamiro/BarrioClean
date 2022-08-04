@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/drawable/rounded_edittext_focused.xml -->
+<shape android:shape="rectangle" xmlns:android=""
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="">
+    <solid android:color="@color/gris_oscuro" />
+    <stroke android:width="2dp" android:color="@color/primaryColor" />
+    <corners android:bottomRightRadius="12dp" android:bottomLeftRadius="12dp"
+        android:topLeftRadius="12dp" android:topRightRadius="12dp" />
+</shape>

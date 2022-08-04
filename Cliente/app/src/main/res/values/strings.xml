@@ -1,0 +1,161 @@
+<resources>
+    <string name="app_name">Barrio Clean</string>
+    <string name="file_provider">com.barrioclean.fileprovider</string>
+    <string name="user_type">1</string>
+
+    <!-- Labels -->
+    <string name="lbl_saltar">Saltar</string>
+    <string name="lbl_continuar">Continuar</string>
+    <string name="lbl_atras">Atrás</string>
+    <string name="lbl_ok">OK</string>
+    <string name="lbl_bienvenido">Bienvenido a</string>
+    <string name="lbl_celular">Ingresa tu n° de celular</string>
+    <string name="lbl_email">Ingresa tu E-mail</string>
+    <string name="lbl_name">Ingresa tu Nombre Completo</string>
+    <string name="lbl_pin">Ingresa tu código PIN</string>
+    <string name="lbl_terminos"><u>He leído y acepto los términos y condiciones</u></string>
+    <string name="lbl_terminos_fecha_actualizacion"><u>Actualizado al 11 de junio del 2020</u></string>
+    <string name="txt_terminos">
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry.\n
+        Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.\n
+        It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.\n\n
+        It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\n
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.\n
+        It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.\n\n
+        It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+    </string>
+    <string name="txt_share">
+        Obtén viajes con descuento.\nTan solo con invitar a tus amigos\na probar Barrio Clean
+    </string>
+    <string name="txt_services">
+        Si has tenido inconvenientes con el servicio (recojo, cantidad, dificultad con el pago, malas prácticas) escríbenos detallando el problema, te responderemos en la brevedad posible.
+    </string>
+    <string name="txt_payment_methods">
+        Si has tenido inconveniente  con tu método de Pago (Débito o crédito) o promociones, escríbenos detallando el problema, te responderemos en la brevedad posible.
+    </string>
+    <string name="txt_emergency">
+        Si ocurrió un accidente, robo o altercado físico, mantén la calma, comunícate con el 105, escríbenos detallando el problema, te responderemos en la brevedad posible.
+    </string>
+    <string name="show_promo">
+        <u>!Ver promoción!</u>
+    </string>
+    <string name="write_message">
+        Escríbenos un mensaje
+    </string>
+    <string name="hint_celular">Número de celular</string>
+    <string name="hint_email">Ingresa tu email</string>
+    <string name="hint_name">Ingresa tu nombre</string>
+    <string name="hint_pin">Ingresa tu PIN</string>
+    <string name="hint_new_pin">Ingresa tu nuevo PIN</string>
+    <string name="hint_new_phone">Ingresa tu nuevo Celular</string>
+
+    <!-- Connection -->
+    <string name="base_url">https://app.barrioclean.com/api/</string>
+    <string name="register">usuario/registro.php</string>
+    <string name="findUsuario">usuario/findUsuario.php</string>
+    <string name="updateProfile">usuario/updateProfile.php</string>
+    <string name="validatePin">usuario/validatePin.php</string>
+    <string name="resendPin">usuario/resendPinCode.php</string>
+    <string name="updatePin">usuario/updatePin.php</string>
+    <string name="updateFcm">usuario/updateFcm.php</string>
+    <string name="sendPushServiceNotification">driver/sendPushServiceNotification.php</string>
+    <string name="sendMailHelp">usuario/sendMailHelp.php</string>
+    <string name="createCharge">usuario/culqi.php</string>
+    <string name="saveRequest">usuario/saveRequest.php</string>
+    <string name="savePago">usuario/savePago.php</string>
+    <string name="updateDriverLocation">driver/updateDriverLocation.php</string>
+    <string name="getUnidades">unidad/getUnidades.php</string>
+    <string name="findUnidades">unidad/findUnidades.php</string>
+    <string name="getPreguntas">pregunta/getPreguntas.php</string>
+    <string name="addCard">tarjeta/registrar.php</string>
+    <string name="getCards">tarjeta/getCards.php</string>
+    <string name="getConfigs">configuracion/getDatos.php</string>
+    <string name="cancelarSolicitud">usuario/cancelarSolicitud.php</string>
+    <string name="getLastRequest">usuario/getLastRequest.php</string>
+    <string name="getDriverLocation">driver/getDriverLocation.php</string>
+    <string name="getHistorial">usuario/getHistorial.php</string>
+    <string name="updatePoints">usuario/updatePoints.php</string>
+    <string name="getDrivers">driver/getDrivers.php</string>
+
+    <!-- History Detail -->
+    <string name="detail_price">S/ %s</string>
+    <string name="detail_weight">%s m3</string>
+
+    <string name="video_tutorial">https://www.youtube.com/watch?v=_oELcBpH1gg</string>
+
+
+    <!-- Titles -->
+    <string name="title_activity_maps">Map</string>
+
+    <!-- Faqs -->
+    <string name="faqs">
+        "[
+          {
+            \"id\": 1,
+            \"pregunta\": \"¿Qué es Barrio Clean?\",
+            \"respuesta\": \"Barrio Clean es la plataforma digital que conecta a los usuarios del app con nuestros socios conductores de transporte de carga.\"
+          },
+          {
+            \"id\": 2,
+            \"pregunta\": \"¿Cómo uso Barrio Clean?\",
+            \"respuesta\": \"Si aún no lo sabes no te preocupes!  Observa acá el tutorial link\"
+          },
+          {
+            \"id\": 3,
+            \"pregunta\": \"¿Qué es Clean Express?\",
+            \"respuesta\": \"Es un servicio en el podrás trasladar tus desechos de construcción o residuos de demolición hasta alcanzar la máxima capacidad del vehículo.\"
+          },
+          {
+            \"id\": 4,
+            \"pregunta\": \"¿Qué es Clean Escala?\",
+            \"respuesta\": \"Traslada tus desechos de construcción o residuos de demolición de forma compartida. Compartir el servicio es más económico!\"
+          },
+          {
+            \"id\": 5,
+            \"pregunta\": \"¿Es seguro Usar Barrio Clean?\",
+            \"respuesta\": \"Si! Ten la tranquilidad que los vehículos trasladaran tus desechos al lugar correcto. Contamos con atención los 365 días del año para resolver tus consultas o dudas que tengas.\"
+          },
+          {
+            \"id\": 6,
+            \"pregunta\": \"¿Qué pasa si cancelo el servicio?\",
+            \"respuesta\": \"Si cancelas servicios continuos se generara una penalidad de s/5 (cinco soles) y podría generarse también la suspensión de tu cuenta.\"
+          },
+          {
+            \"id\":7,
+            \"pregunta\": \"¿Entregan Factura?\",
+            \"respuesta\": \"Barrio Clean es la plataforma digital que conecta a los usuarios del app con nuestros socios conductores de transporte de carga que ofrecen este servicio, es  por ello que Barrio Clean no emite Boletas, recibos o Facturas. Pero no te preocupes! Porque nuestros socios conductores si lo hacen de forma particular. Cuando solicites el servicio  veras la información del socio conductor y podrás comunicarte con el, para que se pongan de acuerdo.\"
+          },
+          {
+            \"id\":8,
+            \"pregunta\": \"¿Por qué debería usar Bario Clean?\",
+            \"respuesta\": \"Barrio Clean te permite manejar tus desechos de manera eficiente, si estás cansado de ver tu barrio contaminado y sucio o quieres tener más espacio en casa y desechar las cosas que ya no te sirve, esta es tu solución. Deja de usar el servicio informal y de contaminar tu barrio, solicita el servicio de Barrio Clean desde la comodidad de tu casa o trabajo, podrás ver las tarifas y aprovechar promociones además compartiéndolo obtendrás servicios gratis!\"
+          },
+          {
+            \"id\":9,
+            \"pregunta\": \"¿Puedo programar un servicio?\",
+            \"respuesta\": \"Si! Usando Barrio Clean podrás programar tu servicio y elegir cuando quieres que se recoja tus desechos. Solo utiliza la opción programar, señala el día, hora y listo!\"
+          },
+          {
+            \"id\":10,
+            \"pregunta\": \"¿Puedo cambiar las cantidades de mis desechos a trasladar?\",
+            \"respuesta\": \"Si! puedes modificar los detalles en cualquier momento e inmediatamente el app te mostrara el nuevo precio. Toda la información en tiempo real!\"
+          },
+          {
+            \"id\":11,
+            \"pregunta\": \"¿Qué tipos de vehículos encuentro en  Barrio Clean?\",
+            \"respuesta\": \"Nuestros socios conductores utilizan motocargas, furgones, camiones y volquetes.\"
+          },
+          {
+            \"id\":12,
+            \"pregunta\": \"¿Qué es problemas de Accesibilidad?\",
+            \"respuesta\": \"En un servicio regular de Barrio Clean los desechos o residuos a trasladar deben encontrarse cerca de la vía pública y no dispersos. Si en caso se encontrara en un lugar que complique el abordaje o requiera mayor esfuerzo por parte del socio conductor entonces existirá ?problema de accesibilidad? el cual tiene un costo adicional que varía entre el 15 y 30% del costo del servicio. Puedes llegar a un acuerdo con el conductor e ingresar el monto pactado.\"
+          },
+          {
+            \"id\":13,
+            \"pregunta\": \"¿Qué es Asesoría?\",
+            \"respuesta\": \"En la opción 'Asesoría' podrás encontrar la ayuda necesaria para que puedas seleccionar tu servicio que más se adecue a tu necesidad.\n\nConsultas En Línea: en esta opción mediante un chat bot en wasap se te indicara paso a paso como elegir el mejor servicio que se adecue a tu necesidad.\n\nTutorial: todo se explica mejor con un video.\n\nVer unidades: podrás ver visualmente los vehículos con sus especificaciones del servicio Barrio Clean Express.\"
+          }
+        ]"
+    </string>
+    <string name="title_activity_service_maps">Map</string>
+</resources>

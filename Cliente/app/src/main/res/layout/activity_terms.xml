@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.TermsActivity">
+    <ImageView
+        android:id="@+id/back_arrow"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon_back_arrow"/>
+
+    <ImageView
+        android:layout_weight="1"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/logo"/>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="180dp"
+        android:paddingEnd="15dp"
+        android:paddingStart="15dp"
+        android:orientation="vertical"
+        android:background="@drawable/fondo_terminos">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:textColor="@color/blanco"
+            android:textSize="15sp"
+            android:text="@string/lbl_terminos_fecha_actualizacion"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:gravity="start"
+                android:textColor="@color/blanco"
+                android:textSize="15sp"
+                android:text="@string/txt_terminos"/>
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>

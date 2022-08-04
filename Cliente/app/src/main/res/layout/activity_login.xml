@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            tools:context=".activities.LoginActivity">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lbl_bienvenido"
+                    android:gravity="center"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="18sp"/>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:src="@drawable/logo"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear_telefono"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lbl_celular"
+                    android:textSize="25sp"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimaryDark"/>
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginEnd="40dp"
+                    android:orientation="horizontal"
+                    android:background="@drawable/btn_border_gris">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginEnd="10dp"
+                        android:gravity="center"
+                        android:textSize="20sp"
+                        android:text="+51"/>
+                    <View
+                        android:layout_width="3dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:background="@color/colorPrimaryDark"/>
+                    <androidx.appcompat.widget.AppCompatEditText
+                        android:id="@+id/et_telefono"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:inputType="phone"
+                        android:textSize="20sp"
+                        android:hint="@string/hint_celular"
+                        android:textColorHint="@color/colorPrimaryDark"
+                        android:background="@null"/>
+                </LinearLayout>
+
+                <CheckBox
+                    android:id="@+id/chk_term"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/lbl_terminos"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:visibility="gone"
+                android:id="@+id/linear_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lbl_email"
+                    android:textSize="25sp"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimaryDark"/>
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginEnd="40dp"
+                    android:orientation="horizontal"
+                    android:background="@drawable/btn_border_gris">
+
+                    <androidx.appcompat.widget.AppCompatEditText
+                        android:id="@+id/et_email"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:inputType="textEmailAddress"
+                        android:textSize="20sp"
+                        android:hint="@string/hint_email"
+                        android:textColorHint="@color/colorPrimaryDark"
+                        android:background="@null"/>
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:visibility="gone"
+                android:id="@+id/linear_full_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/lbl_name"
+                    android:textSize="25sp"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimaryDark" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="40dp"
+                    android:background="@drawable/btn_border_gris"
+                    android:orientation="horizontal"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp">
+
+                    <androidx.appcompat.widget.AppCompatEditText
+                        android:id="@+id/et_full_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:hint="@string/hint_name"
+                        android:background="@null"
+                        android:textColorHint="@color/colorPrimaryDark"
+                        android:inputType="textCapWords"
+                        android:textSize="20sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:visibility="gone"
+                android:id="@+id/linear_pin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/lbl_pin"
+                    android:textSize="25sp"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimaryDark" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="40dp"
+                    android:background="@drawable/btn_border_gris"
+                    android:orientation="horizontal"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp">
+
+                    <com.alimuzaffar.lib.pin.PinEntryEditText
+                        android:inputType="number"
+                        android:id="@+id/et_pin"
+                        android:maxLength="4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:paddingStart="25dp"
+                    android:paddingEnd="25dp">
+                    <Button
+                        android:id="@+id/btn_atras"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/btn_default_verde"
+                        android:textSize="18dp"
+                        android:textColor="@color/blanco"
+                        android:text="@string/lbl_atras"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:paddingStart="25dp"
+                    android:paddingEnd="25dp">
+                    <Button
+                        android:id="@+id/btn_continuar"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/btn_default_verde"
+                        android:textSize="18dp"
+                        android:textColor="@color/blanco"
+                        android:text="@string/lbl_continuar"/>
+                </LinearLayout>
+            </LinearLayout>
+            <TextView
+                android:id="@+id/forgot_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingStart="50dp"
+                android:paddingEnd="50dp"
+                android:gravity="center|start"
+                android:textSize="18dp"
+                android:textColor="@color/negro"
+                android:fontFamily="@font/gotham_medium"
+                android:text="¿Olvidaste tu PIN?"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+
+

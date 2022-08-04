@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.IntroActivity">
+
+    <com.synnapps.carouselview.CarouselView
+        android:layout_weight="1"
+        android:background="@android:color/white"
+        android:id="@+id/carousel_on_boarding"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:radius="6dp"
+        app:autoPlay="false"
+        app:strokeWidth="1dp">
+    </com.synnapps.carouselview.CarouselView>
+
+    <Button
+        android:id="@+id/btn_continuar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/btn_default_verde"
+        android:text="@string/lbl_continuar"
+        android:textColor="@color/blanco"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

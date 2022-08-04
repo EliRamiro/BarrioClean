@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:layout_gravity="center"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    app:cardCornerRadius="25dp"
+    android:elevation="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotham_medium"
+            android:gravity="center"
+            android:text="Indica el tiempo de llegada."
+            android:textColor="@color/colorAccent"
+            android:textSize="21sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/gotham_medium"
+            android:gravity="center"
+            android:text="Selecciona el tiempo aproximado"
+            android:textColor="@color/gris_oscuro"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp">
+
+                <Button
+                    android:id="@+id/btn_10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_default_verde"
+                    android:text="10 min."
+                    android:textColor="@color/blanco"
+                    android:textSize="25sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp">
+
+                <Button
+                    android:id="@+id/btn_20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_default_verde"
+                    android:text="20 min."
+                    android:textColor="@color/blanco"
+                    android:textSize="25sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp">
+
+                <Button
+                    android:id="@+id/btn_30"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_default_verde"
+                    android:text="30 min."
+                    android:textColor="@color/blanco"
+                    android:textSize="25sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_cerrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="20dp"
+            android:paddingVertical="10dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/btn_default_rojo"
+            android:fontFamily="@font/gotham_medium"
+            android:gravity="center"
+            android:text="Cerrar"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/txt_cancelar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/gotham_medium"
+            android:gravity="center"
+            android:text="Cancelar"
+            android:textColor="@color/gris_oscuro"
+            android:textSize="25sp" />
+
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

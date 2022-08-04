@@ -1,0 +1,67 @@
+[
+  {
+  "id": 1,
+    "pregunta": "¿Qué es Barrio Clean?",
+    "respuesta": "Barrio Clean es la plataforma digital que conecta a los usuarios del app con nuestros socios conductores de transporte de carga."
+  },
+  {
+    "id": 2,
+    "pregunta": "¿Cómo uso Barrio Clean?",
+    "respuesta": "Si aún no lo sabes no te preocupes!  Observa acá el tutorial link"
+  },
+  {
+    "id": 3,
+    "pregunta": "¿Qué es Clean Express?",
+    "respuesta": "Es un servicio en el podrás trasladar tus desechos de construcción o residuos de demolición hasta alcanzar la máxima capacidad del vehículo."
+  },
+  {
+    "id": 4,
+    "pregunta": "¿Qué es Clean Escala?",
+    "respuesta": "Traslada tus desechos de construcción o residuos de demolición de forma compartida. Compartir el servicio es más económico!"
+  },
+  {
+    "id": 5,
+    "pregunta": "¿Es seguro Usar Barrio Clean?",
+    "respuesta": "Si! Ten la tranquilidad que los vehículos trasladaran tus desechos al lugar correcto. Contamos con atención los 365 días del año para resolver tus consultas o dudas que tengas."
+  },
+  {
+    "id": 6,
+    "pregunta": "¿Qué pasa si cancelo el servicio?",
+    "respuesta": "Si cancelas servicios continuos se generara una penalidad de s/5 (cinco soles) y podría generarse también la suspensión de tu cuenta."
+  },
+  {
+    "id":7,
+    "pregunta": "¿Entregan Factura?",
+    "respuesta": "Barrio Clean es la plataforma digital que conecta a los usuarios del app con nuestros socios conductores de transporte de carga que ofrecen este servicio, es  por ello que Barrio Clean no emite Boletas, recibos o Facturas. Pero no te preocupes! Porque nuestros socios conductores si lo hacen de forma particular. Cuando solicites el servicio  veras la información del socio conductor y podrás comunicarte con el, para que se pongan de acuerdo."
+  },
+  {
+    "id":8,
+    "pregunta": "¿Por qué debería usar Bario Clean?",
+    "respuesta": "Barrio Clean te permite manejar tus desechos de manera eficiente, si estás cansado de ver tu barrio contaminado y sucio o quieres tener más espacio en casa y desechar las cosas que ya no te sirve, esta es tu solución. Deja de usar el servicio informal y de contaminar tu barrio, solicita el servicio de Barrio Clean desde la comodidad de tu casa o trabajo, podrás ver las tarifas y aprovechar promociones además compartiéndolo obtendrás servicios gratis!"
+  },
+  {
+    "id":9,
+    "pregunta": "¿Puedo programar un servicio?",
+    "respuesta": "Si! Usando Barrio Clean podrás programar tu servicio y elegir cuando quieres que se recoja tus desechos. Solo utiliza la opción programar, señala el día, hora y listo!"
+  },
+  {
+    "id":10,
+    "pregunta": "¿Puedo cambiar las cantidades de mis desechos a trasladar?",
+    "respuesta": "Si! puedes modificar los detalles en cualquier momento e inmediatamente el app te mostrara el nuevo precio. Toda la información en tiempo real!"
+  },
+  {
+    "id":11,
+    "pregunta": "¿Qué tipos de vehículos encuentro en  Barrio Clean?",
+    "respuesta": "Nuestros socios conductores utilizan motocargas, furgones, camiones y volquetes."
+  },
+  {
+    "id":12,
+    "pregunta": "¿Qué es problemas de Accesibilidad?",
+    "respuesta": "En un servicio regular de Barrio Clean los desechos o residuos a trasladar deben encontrarse cerca de la vía pública y no dispersos. Si en caso se encontrara en un lugar que complique el abordaje o requiera mayor esfuerzo por parte del socio conductor entonces existirá ?problema de accesibilidad? el cual tiene un costo adicional que varía entre el 15 y 30% del costo del servicio. Puedes llegar a un acuerdo con el conductor e ingresar el monto pactado."
+  },
+  {
+    "id":13,
+    "pregunta": "¿Qué es Asesoría?",
+    "respuesta": "En la opción “Asesoría” podrás encontrar la ayuda necesaria para que puedas seleccionar tu servicio que más se adecue a tu necesidad.  \nConsultas En Línea: en esta opción mediante un chat bot en wasap se te indicara paso a paso como elegir el mejor servicio que se adecue a tu necesidad.\nTutorial: todo se explica mejor con un video.\nVer unidades: podrás ver visualmente los vehículos con sus especificaciones del servicio Barrio Clean Express.\n"
+  }
+]

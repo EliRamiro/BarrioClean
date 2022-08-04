@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="15dp"
+    android:paddingStart="15dp"
+    android:paddingEnd="15dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/img_driver"
+                android:layout_weight="1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:civ_border_width="3dp"
+                app:civ_border_color="@color/colorAccent"
+                android:src="@drawable/avatar_default"/>
+            <TextView
+                android:id="@+id/txt_placa"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/negro"
+                android:textAllCaps="true"
+                android:textSize="25dp"
+                android:fontFamily="@font/gotham_medium"
+                android:text="AHE016"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/txt_driver_name"
+                android:gravity="center|end"
+                android:layout_gravity="center|end"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Usuario Conductor"
+                android:fontFamily="@font/gotham_medium"
+                android:textSize="20sp"
+                android:textColor="@color/negro"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|end"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:textSize="20sp"
+                    android:textColor="@color/negro"
+                    android:text="4.9"/>
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_gravity="center|end"
+                    android:src="@drawable/icon_star" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+        <View
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:layout_height="1dp"
+            android:background="@color/gris_oscuro"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_weight="0.6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/txt_service"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/negro"
+                    android:textSize="18dp"
+                    android:fontFamily="@font/gotham_medium"
+                    android:text="Clean Express"/>
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/img_truck_service"/>
+                <TextView
+                    android:id="@+id/txt_arrive"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="18dp"
+                    android:fontFamily="@font/gotham_medium"
+                    android:text="Cecilión está llegando"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/txt_total"
+                    android:gravity="center|end"
+                    android:layout_gravity="center|end"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="S/ 125.00"
+                    android:fontFamily="@font/gotham_medium"
+                    android:textSize="25sp"
+                    android:textColor="@color/colorAccent"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:layout_height="1dp"
+            android:background="@color/gris_oscuro"/>
+
+    </LinearLayout>
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_weight="1"
+            android:id="@+id/linear_contactar"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:layout_width="200dp"
+            android:layout_height="45dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:background="@drawable/btn_default_verde"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Contactar"
+                android:textSize="18sp"
+                android:fontFamily="@font/gotham_regular"
+                android:textColor="@color/blanco"
+                android:background="@null"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:id="@+id/linear_cancelar"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:layout_width="200dp"
+            android:layout_height="45dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:background="@drawable/btn_default_gris"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Cancelar"
+                android:textSize="18sp"
+                android:fontFamily="@font/gotham_regular"
+                android:textColor="@color/blanco"
+                android:background="@null"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</LinearLayout>
